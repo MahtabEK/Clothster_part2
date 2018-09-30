@@ -1,0 +1,246 @@
+@font-face {
+  font-family: "Shabnam";
+  src: url("shabnam/Shabnam.eot");
+  src: url("shabnam/Shabnam.eot?#iefix") format('embedded-opentype'),
+       url("shabnam/Shabnam.woff") format('woff'),
+       url("shabnam/Shabnam.ttf") format('truetype');
+  font-weight: normal;
+}
+      
+@font-face {
+  font-family: "Shabnam-Bold";
+  src: url("shabnam/Shabnam-Bold.eot");
+  src: url("shabnam/Shabnam-Bold.eot?#iefix") format('embedded-opentype'),
+       url("shabnam/Shabnam-Bold.woff") format('woff'),
+       url("shabnam/Shabnam-Bold.ttf") format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Shabnam-Light";
+  src: url("shabnam/Shabnam-Light.eot");
+  src: url("shabnam/Shabnam-Light.eot?#iefix") format('embedded-opentype'),
+       url("shabnam/Shabnam-Light.woff") format('woff'),
+       url("shabnam/Shabnam-Light.ttf") format('truetype');
+  font-weight: 300;
+}
+
+#popUp_button {
+	position: fixed;
+	bottom: 0%;
+	right: 8%;
+	width: 210px;
+	height: 50px;
+	font-family: "Shabnam";	
+	background-color:blue;
+	color: white;
+	padding-left: 5px;
+	padding-right:60px;
+	border-style: none;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#popUp_div_image {
+	position: absolute;
+	right: 8%;
+	top: 15%;
+	background-color: gray;
+	border-radius: 40px;
+	border: none;
+	height: 36px;
+	width: 36px;
+}
+
+#popUp_image {
+	position: absolute;
+	right: 15%;
+	top: 25%;
+	height: 22px;
+	width: 26px;
+}
+
+#popUp_window {
+	position: fixed;
+	bottom: 0%;
+	right: 8%;
+	width: 265px;
+	height: 475px;
+	border-top-color: white;
+	border-top-style: solid;
+    border-top-width: 3px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	background-color: blue;	
+	display: none;
+	
+}
+
+#popUp_window_middle {
+	position: absolute;
+	top: 15%;
+	width: 265px;
+	height: 435px;
+	border-style: none;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	background-color: #f2f2f2;	
+}
+
+#popUp_box {
+	position: absolute;
+	bottom: 0%;
+	width: 259.9px;
+	height: 50px;
+	border-style: solid;
+	border-color: #d9d9d9;
+	border-width: 2.8px;
+	background-color: #f2f2f2;
+}
+
+#popUp_input_id {
+	position: absolute;
+	bottom: 11%;
+	right: 3.6%;
+	width: 224px;
+	height: 36px;
+	font-family: "Shabnam";	
+	border-style: solid;
+	border-color: #d9d9d9;
+	border-width: 0.4px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	padding-right: 18px;
+	background-color: white;
+	color: #cccccc;
+}
+
+#popUp_send {
+	position: absolute;
+	top: 29%;
+	right: 85%;
+	height: 25px;
+	width: 25px;
+}
+
+#minimize {
+	position: absolute;
+	top: 2%;
+	left: 3.5%;
+	height: 28px;
+	width: 28px;	
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #f2f2f2;	
+}
+
+#minimize_pic {
+	position: absolute;
+	bottom: 8.5%;
+	left: 15%;
+	height: 12px;
+	width: 18px;
+}
+
+#supporter_field, #supporter_name {
+	position: absolute;
+	top: 3.5%;
+	right: 24.5%;
+	font-family: "Shabnam";	
+	font-size: 12px;
+	color: #cccccc;
+}
+
+#supporter_name{
+	top: 8.75%;
+}
+
+#supporter_image, #supporter_first_pic {
+	position: absolute;
+	top: 2.5%;
+	right: 3%;
+	height: 50px;
+	width: 50px;	
+	border-style: none;
+	border-radius: 24px;
+	display: none;
+}
+
+#supporter_first_pic {
+	top: 8%;
+	right: 3%;
+	height: 35px;
+	width: 35px;
+}
+
+#supporter_start_message {
+	position: absolute;
+	top: 7.5%;
+	right: 19.5%;
+	height: 24px;
+	width: 180px;	
+	border-style: none;
+	border-radius: 5px;
+	background-color: white;
+	font-family: "Shabnam";	
+	font-size: 10px;
+	text-align: center;
+	padding-top: 11px;
+	display: none;
+}
+
+#user_first_pic {
+	position: absolute;
+	top: 22%;
+	left: 3%;
+	height: 40px;
+	width: 40px;	
+	border-style: none;
+	border-radius: 24px;
+	display: none;
+}
+
+#user_start_message {
+	position: absolute;
+	top: 23%;
+	left: 22.3%;
+	height: 24px;
+	width: 180px;	
+	border-style: none;
+	border-radius: 5px;
+	background-color: white;
+	font-family: "Shabnam";	
+	font-size: 10px;
+	text-align: center;
+	padding-top: 11px;
+	display: none;
+}
+
+#popUp_window_middle {
+	overflow: scroll;
+}
+
+#date {
+	position: absolute;
+	top: 2;
+	right: 10%;
+	height: 20px;
+	width: 180px;	
+	border-style: none;
+	border-radius: 5px;
+	background-color:  #f2f2f2;
+	font-family: "Shabnam";	
+	font-size: 7.5px;
+	text-align: center;
+	padding-top: 11px;
+	display: none;
+}
+
+
+
+
+
